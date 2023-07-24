@@ -1,2 +1,6 @@
-git_md_png
-.idea
+
+node_modules 
+*.env 
+.env* 
+*.local
+*.idea
