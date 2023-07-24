@@ -51,3 +51,29 @@ remote: Resolving deltas: 100% (9/9), done.
 To https://github.com/GrafanyS/git_advanced_course.git 
  + 790f357...c9574c0 main -> main (forced update)      
 PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD>  
+PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD> git add .\terminal.md
+PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD> git commit -m "terminal list"
+[main 89469b8] terminal list
+ 1 file changed, 53 insertions(+)
+ create mode 100644 terminal.md
+PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD> git push --set-upstream origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.17 KiB | 1.17 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/GrafanyS/git_advanced_course.git
+   c9574c0..89469b8  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\ServerGrafany\Desktop\GIT_SEMINAR\GB_MD>
